@@ -245,8 +245,8 @@ namespace EmuLauncher
             {
                 case MouseButtons.Right:
                     {
-                        contextMenuStrip2.Show(this, this.PointToClient(Cursor.Position));
                         contextMenuStrip2.Tag = box.Tag;
+                        contextMenuStrip2.Show(this, this.PointToClient(Cursor.Position));
                     }
                     break;
             }
